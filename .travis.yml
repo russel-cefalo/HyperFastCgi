@@ -1,7 +1,7 @@
 language: csharp
 compiler:
-    gcc
-    clang
+    - gcc
+    - clang
 
 before_install:
     - sudo apt-get install libevent-dev
