@@ -5,6 +5,9 @@ compiler:
 
 before_install:
     - sudo apt-get install libevent-dev
+    - cmake --version
+    - clang --version
+    - gcc --version
 
 script:
     - echo $CC $CXX
