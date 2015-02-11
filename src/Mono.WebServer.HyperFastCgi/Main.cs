@@ -246,9 +246,9 @@ namespace Mono.WebServer.HyperFastCgi
 //				}
 
 				Logger.Write (LogLevel.Debug,
-					"Listening on port: {0}", address_str);
+					"Listening on port: {0}", port);
 				Logger.Write (LogLevel.Debug,
-					"Listening on address: {0}", port);
+					"Listening on address: {0}", address_str);
 				break;
 
 			default:
